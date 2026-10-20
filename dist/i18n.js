@@ -12,7 +12,7 @@ const englishPage = [
 ['.hero-copy > .eyebrow','<span class="status-dot"></span> RECIFE, BRAZIL <span class="eyebrow-separator">/</span> SOFTWARE DEVELOPER'],
 ['#hero-title','Between code<br>and the <em>real world.</em>'],
 ['.hero-description','I’m <strong>Marco Maciel.</strong> I build web and Android applications and connect that work with research in artificial intelligence and IoT.'],
-['.hero-actions .button','Explore my work <span aria-hidden="true">↘</span>'],['.hero-actions .text-link','My GitHub <span aria-hidden="true">↗</span>'],
+['.hero-actions .button-dark','Explore my work <span aria-hidden="true">↘</span>'],['.cv-download','Download CV (PT) <span aria-hidden="true">↓</span>'],
 ['.hero-footnote p','Computer Science · CESAR School<br><span>Building, learning, and asking questions.</span>'],
 ['.art-topline > span:first-child','FROM CONCEPT TO APPLICATION'],['.orbit-top','<span class="small-dot"></span> web + devices'],['.art-coordinate','WEB. ANDROID. RESEARCH.'],['.art-note','Real interfaces.<br>Real-world problems.'],
 ['.specialties > span:first-child','From interfaces to data.'],['.specialties > div > span:last-child','Applied research'],
@@ -32,6 +32,7 @@ const englishPage = [
 ['.dialog-toolbar > span','PROJECT DETAILS'],['.close-dialog','Close <span aria-hidden="true">×</span>']
 ];
 const englishAttributes = [
+['.cv-download','aria-label','Download CV in Portuguese (PDF)'],['.cv-download','title','CV in Portuguese (PDF)'],
 ['.brand','aria-label','Marco Maciel, home'],['.desktop-nav','aria-label','Main navigation'],['.mobile-nav','aria-label','Mobile navigation'],['.hero-art','aria-label','Screenshots from SafeKid and Seaway'],['.hero-browser img','alt','SafeKid dashboard showing fictional access records'],['.hero-phone img','alt','Seaway Android app with five fictional barcode readings'],['.mgm-visual','aria-label','Explore MGM Ambiental'],['.mgm-window img','alt','MGM portal with process stages, documents, deadlines, and a map using demo data'],['.seaway-visual','aria-label','Explore Seaway'],['.seaway-phone img','alt','Barcode counting screen in the Seaway Android app'],['.safe-visual','aria-label','Explore SafeKid details and screenshots'],['.safe-window img','alt','SafeKid dashboard running with synthetic registrations and access records']
 ];
 const projectEnglish = {

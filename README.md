@@ -45,3 +45,7 @@ Fontes locais: Manrope e Fraunces (itálica), distribuídas sob a SIL Open Font 
 ## Idiomas
 
 O seletor PT/EN no cabeçalho traduz o conteúdo e os detalhes dos projetos. A preferência fica salva no navegador quando o armazenamento está disponível. Links com `?lang=en` ou `?lang=pt` abrem o idioma explicitamente e têm prioridade sobre a preferência salva. As capturas dos aplicativos mantêm a interface original.
+
+## Currículo
+
+O botão da apresentação baixa `dist/assets/Marco_Maciel_Curriculo.pdf`. O arquivo é o currículo em português nos dois idiomas do site; a versão em inglês identifica o download como “CV (PT)”. Ao atualizar o currículo, substitua esse arquivo mantendo o nome.
