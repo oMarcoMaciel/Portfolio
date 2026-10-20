@@ -5,6 +5,6 @@
   "description": "Portfólio pessoal — desenvolvimento e pesquisa",
   "scripts": {
     "dev": "python3 -m http.server 4173 --directory dist --bind 127.0.0.1",
-    "check": "node --check dist/app.js"
+    "check": "node --check dist/app.js && node --check dist/i18n.js"
   }
 }

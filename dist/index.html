@@ -13,6 +13,7 @@
 <meta property="og:locale" content="pt_BR">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="styles.css">
+<script src="i18n.js" defer></script>
 <script src="app.js" defer></script>
 </head>
 <body>
@@ -20,8 +21,11 @@
 <header class="site-header">
 <a class="brand" href="#inicio" aria-label="Marco Maciel, início"><span class="monogram" aria-hidden="true">m<span>.</span></span><span>marco maciel<span class="brand-caption">desenvolvimento & pesquisa</span></span></a>
 <nav class="desktop-nav" aria-label="Navegação principal"><a href="#projetos">Projetos</a><a href="#trajetoria">Trajetória</a><a href="#pesquisa">Pesquisa</a></nav>
+<div class="header-actions">
 <a class="nav-contact" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+<div class="language-control" role="group" aria-label="Idioma do site"><button type="button" data-language="pt" aria-label="Português" aria-pressed="true">PT</button><button type="button" data-language="en" aria-label="English" aria-pressed="false">EN</button></div>
 <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+</div>
 </header>
 <nav class="mobile-nav" id="mobile-nav" aria-label="Navegação mobile" hidden><a href="#projetos">Projetos <span>01</span></a><a href="#trajetoria">Trajetória <span>02</span></a><a href="#pesquisa">Pesquisa <span>03</span></a><a href="#contato">Contato <span>↗</span></a></nav>
 <main id="conteudo">
@@ -37,7 +41,7 @@
 <div class="art-grid" aria-hidden="true"></div>
 <div class="art-topline"><span>DO CONCEITO À APLICAÇÃO</span><span aria-hidden="true">↗</span></div>
 <div class="orbit-label orbit-top"><span class="small-dot"></span> web + dispositivos</div>
-<div class="hero-browser"><div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>safekid / dashboard</span><span aria-hidden="true">↗</span></div><img src="assets/safekid-dashboard.png" width="65536" height="4292542531" alt="Dashboard SafeKid com registros fictícios de acesso" fetchpriority="high"></div>
+<div class="hero-browser"><div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>safekid / dashboard</span><span aria-hidden="true">↗</span></div><img src="assets/safekid-dashboard.png" width="1414" height="1311" alt="Dashboard SafeKid com registros fictícios de acesso" fetchpriority="high"></div>
 <div class="hero-phone"><span class="phone-speaker" aria-hidden="true"></span><img src="assets/seaway-contagem.png" width="1080" height="2400" alt="Aplicativo Android Seaway com cinco códigos fictícios registrados" fetchpriority="high"></div>
 <div class="art-bottomline"><span class="art-coordinate">WEB. ANDROID. PESQUISA.</span><span class="art-mark" aria-hidden="true">✳</span></div>
 <span class="art-note">Interfaces reais.<br>Problemas concretos.</span>
@@ -48,7 +52,7 @@
 <div class="section-heading"><div><p class="eyebrow">01 / PROJETOS SELECIONADOS</p><h2 id="projects-title">O que tenho<br><em>construído.</em></h2></div><p class="section-intro">Aplicações para acompanhar serviços,<br>organizar operações e explorar novas ideias.<br><span>Um recorte do meu trabalho, por dentro.</span></p></div>
 <div class="project-grid">
 <article class="project project-mgm reveal">
-<button class="project-visual mgm-visual" data-project="mgm" aria-label="Conhecer o projeto MGM Ambiental"><div class="visual-topline"><span>PLATAFORMA WEB</span><span aria-hidden="true">01</span></div><div class="mgm-window"><div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>mgm ambiental / portal do cliente</span></div><img src="assets/mgm-processos.png" alt="Portal MGM com fases, documentos, prazos e mapa de uma área fictícia" width="65536" height="4292542531" loading="lazy"></div><span class="visual-open" aria-hidden="true">↗</span></button>
+<button class="project-visual mgm-visual" data-project="mgm" aria-label="Conhecer o projeto MGM Ambiental"><div class="visual-topline"><span>PLATAFORMA WEB</span><span aria-hidden="true">01</span></div><div class="mgm-window"><div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>mgm ambiental / portal do cliente</span></div><img src="assets/mgm-processos.png" alt="Portal MGM com fases, documentos, prazos e mapa de uma área fictícia" width="1414" height="1297" loading="lazy"></div><span class="visual-open" aria-hidden="true">↗</span></button>
 <div class="project-caption"><div><p class="project-kind">DESENVOLVIMENTO PROFISSIONAL</p><h3><button data-project="mgm">MGM Ambiental <span aria-hidden="true">↗</span></button></h3><p>Mais visibilidade para quem acompanha<br>processos ambientais.</p></div><span class="project-year">2026 — atual</span></div><div class="tags"><span>JavaScript</span><span>PostgreSQL</span><span>Portal de clientes</span></div>
 </article>
 <article class="project project-seaway reveal">
@@ -57,7 +61,7 @@
 </article>
 <article class="project project-safe reveal">
 <div class="safe-copy"><p class="project-kind">PESQUISA APLICADA · IoT</p><h3>SafeKid<span class="project-suffix">— IoT</span></h3><p>Da leitura de um crachá ao acompanhamento por zonas. Um protótipo que conecta dispositivos, dados e interface web.</p><div class="tags"><span>FastAPI</span><span>Vue 3</span><span>MQTT</span></div><button class="text-link" data-project="safekid">Conhecer o projeto <span aria-hidden="true">↗</span></button><span class="acceptance"><span class="small-dot"></span> Artigo aceito · MNR 2026</span></div>
-<button class="safe-visual" data-project="safekid" aria-label="Ver detalhes e capturas do SafeKid"><div class="safe-orbit" aria-hidden="true"></div><div class="safe-window"><div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>safekid / controle de acesso</span></div><img src="assets/safekid-dashboard.png" alt="Dashboard do SafeKid executado com cadastros e registros sintéticos" width="65536" height="4292542531" loading="lazy"></div><span class="safe-figure-label">IDENTIFICAR → PROCESSAR → VISUALIZAR</span></button>
+<button class="safe-visual" data-project="safekid" aria-label="Ver detalhes e capturas do SafeKid"><div class="safe-orbit" aria-hidden="true"></div><div class="safe-window"><div class="window-bar"><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span><span>safekid / controle de acesso</span></div><img src="assets/safekid-dashboard.png" alt="Dashboard do SafeKid executado com cadastros e registros sintéticos" width="1414" height="1311" loading="lazy"></div><span class="safe-figure-label">IDENTIFICAR → PROCESSAR → VISUALIZAR</span></button>
 </article>
 </div>
 <p class="project-disclosure"><span aria-hidden="true">↳</span> Capturas das aplicações em execução com dados de demonstração. Os estudos detalham o contexto, minha participação e as decisões técnicas.</p>
